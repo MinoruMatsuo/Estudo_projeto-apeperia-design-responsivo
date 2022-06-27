@@ -9,6 +9,7 @@ Neste projeto estaremos desenvolvendo o website atráves de um <b><a href="https
   <ul>
     <li> Unidades REM e EM;</li>
     <li> Criação da viewport;</li>
+    <li> Criação de variaveis CSS para facilitar posterior manutenção de código;</li>
     <li> Evolução do modelo web para desktop.</li>
   </ul>
 </ul>

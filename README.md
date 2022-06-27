@@ -8,8 +8,7 @@ Neste projeto estaremos desenvolvendo o website atráves de um <b><a href="https
   <h3><li>Pontos de destaque:</li></h3>
   <ul>
     <li> Unidades REM e EM;</li>
-    <li> Resetar todo o deisgn padrão do browser com o arquivo reset.css;</li>
-    <li> Utilizar o googlefonts para importação de fontes para o projeto;</li>
+    <li> Criação da viewport;</li>
     <li> Evolução do modelo web para desktop.</li>
   </ul>
 </ul>

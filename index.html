@@ -12,6 +12,9 @@
         <link href="css/cabecalho.css" rel="stylesheet">
         <link href="css/chamada.css" rel="stylesheet">
         <link href="css/destaques.css" rel="stylesheet">
+        <link href="css/diferenciais.css" rel="stylesheet">
+        <link href="css/sobre.css" rel="stylesheet">
+        <link href="css/planos.css" rel="stylesheet">
     </head>
 
     <body>
@@ -54,7 +57,83 @@
                         <figcaption class="destques__painel">Veja dicas de como fotografar usando seu celular</figcaption>
                     </figure>
                 </a>
-                <a href="#" class="destaques__botao botao">Receber destaques por email</a></section>
+                <a href="#" class="destaques__botao botao">Receber destaques por email</a>
+            </section>
+
+            <!-- section.diferenciais.container>ul.diferenciais__item>(li.diferenciais__item>h2.item__titulo+p.item__texto)*3 -->
+            <section class="diferenciais container">
+                <ul class="diferenciais__item">
+                    <li class="diferenciais__item diferenciais__item--tempo">
+                        <h2 class="item__titulo">Tempo</h2>
+                        <p class="item__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos prazos.</p>
+                    </li>
+                    <li class="diferenciais__item diferenciais__item--foco">
+                        <h2 class="item__titulo">Foco</h2>
+                        <p class="item__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.</p>
+                    </li>
+                    <li class="diferenciais__item diferenciais__item--especialistas">
+                        <h2 class="item__titulo">Especialistas</h2>
+                        <p class="item__texto">Equipe experiente e especializada! Testamos todos os produtos antes do lançamento.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- section.sobre.container>h2.sobre__titulo+(p.sobre__texto.sobre__texto--destaque)*3+(img.sobre__plataformas)*4+p.sobre__texto.sobre__texto--destaque -->
+            <section class="sobre container">
+                <h2 class="sobre__titulo">Sobre</h2>
+                <p class="sobre__texto">Criamos aplicativos personalizados para todas as pessoas!</p>
+                <p class="sobre__texto">A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.</p>
+                <p class="sobre__texto sobre__texto--destaque">Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.</p>
+                <ul class="sobre__plataformas">   
+                    <img src="img/android.png" alt="" class="sobre__plataformas">
+                    <img src="img/blackberry.png" alt="" class="sobre__plataformas">
+                    <img src="img/apple.png" alt="" class="sobre__plataformas">
+                    <img src="img/windowsphone.png" alt="" class="sobre__plataformas">
+                </ul>
+                <p class="sobre__texto">Desenvolvemos aplicativos para todas as plataformas</p>
+            </section>
+            
+            <!-- section.planos.container>h2.planos__titulo+ul.planos__cartoes>(li.cartao--start>h3.cartao__titulo+article.cartao__conteudo>p.cartao__preco+p.cartao__texto*3+a.cartao__botao.cartao__botao--start.botao)*3 -->
+            <section class="planos container">
+                <h2 class="planos__titulo"></h2>
+                <ul class="planos__cartoes">
+                    <li class="cartao--start">
+                        <h3 class="cartao__titulo">Start</h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco">R$ 500</p>
+                            <p class="cartao__texto">5 manutenções mensais</p>
+                            <p class="cartao__texto">App SEO</p>
+                            <p class="cartao__texto">1 sistema operacional</p>
+                            <a href="" class="cartao__botao cartao__botao--start botao">Assinar plano</a>
+                        </article>
+                    </li>
+                    <li class="cartao--start">
+                        <h3 class="cartao__titulo"></h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"></p>
+                            <p class="cartao__texto"></p>
+                            <p class="cartao__texto"></p>
+                            <p class="cartao__texto"></p>
+                            <a href="" class="cartao__botao cartao__botao--start botao"></a>
+                        </article>
+                    </li>
+                    <li class="cartao--start">
+                        <h3 class="cartao__titulo"></h3>
+                        <article class="cartao__conteudo">
+                            <p class="cartao__preco"></p>
+                            <p class="cartao__texto"></p>
+                            <p class="cartao__texto"></p>
+                            <p class="cartao__texto"></p>
+                            <a href="" class="cartao__botao cartao__botao--start botao"></a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+
+
+
+            
         </main>  
     </body>
 </html>

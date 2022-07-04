@@ -45,3 +45,13 @@
 .item__texto {
     line-height: normal;
 }
+
+@media all and (min-width: 1024px) {
+    .diferenciais{
+        background-color: var(--cinza-claro);
+    }
+
+    .diferenciais__lista{
+        justify-content: space-around;
+    }
+}

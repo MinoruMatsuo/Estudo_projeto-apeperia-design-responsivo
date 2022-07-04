@@ -9,7 +9,6 @@ Neste projeto estaremos desenvolvendo o website atráves de um <b><a href="https
   <ul>
     <li> Treinar o uso do Emmet;</li>
     <li> Unidades REM e EM;</li>
-    <li> Criação da viewport;</li>
     <li> Criação de variaveis CSS para facilitar posterior manutenção de código;</li>
     <li> Usar o @media para que o CSS responda de maneiras diferentes de acordo com o tamanho de tela do dispositivo;</li>
     <li> Adaptação da página mobile obedecendo ao projeto de design de maneira responsiva para tablets e desktops.</li>

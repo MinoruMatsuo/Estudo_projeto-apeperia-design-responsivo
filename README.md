@@ -1,6 +1,8 @@
 <h1>Estudo projeto-apeperia-design-responsivo</h1>
 
-O trabalho consiste na criação de um website responsivo utilizando o conceito <b>mobile first</b> para a empresa ficticia Apeperia.
+O trabalho consiste na criação de um <a href="https://lucky-gumdrop-997532.netlify.app"><b>website</a></b> responsivo utilizando o conceito <b>mobile first</b> para a empresa ficticia Apeperia.
+
+
 
 Neste projeto estaremos desenvolvendo o website atráves de um <b><a href="https://www.figma.com/file/FidBn9f7BoBCoEs19EzbUD/Apeperia-Mobile-First?node-id=15%3A0"> material pronto</a></b> entregue pela equipe de design na plataforma figma.
 
